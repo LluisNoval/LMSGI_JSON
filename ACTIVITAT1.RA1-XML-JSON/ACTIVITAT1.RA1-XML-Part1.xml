@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<botiga>
+    <!-- Llista de productes de la botiga -->
+    <productes>
+        <!-- Producte 1 -->
+        <producte id="P001">
+            <nom>Telèfon</nom> <!-- Nom del producte -->
+            <descripcio>Per comunicar-se amb altres persones.</descripcio> <!-- Descripció del producte -->
+            <preu moneda="EUR">999.99</preu> <!-- Preu del producte amb la moneda especificada (EUR) -->
+            <categoria>Electrònica</categoria> <!-- Categoria del producte -->
+            <disponibilitat estat="estoc">Disponible</disponibilitat> <!-- Disponibilitat del producte -->
+            <imatge>https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Motorola_4050a-2.jpg/450px-Motorola_4050a-2.jpg</imatge> <!-- Enllaç a la imatge del producte -->
+        </producte>
+
+        <!-- Producte 2 -->
+        <producte id="P002">
+            <nom>Rellotge</nom>
+            <descripcio>Per consultar l'hora.</descripcio>
+            <preu moneda="USD">299.99</preu> <!-- Moneda: USD (dòlars americans) -->
+            <categoria>Electrònica</categoria>
+            <disponibilitat estat="esgotat">No disponible</disponibilitat>
+            <imatge>https://upload.wikimedia.org/wikipedia/commons/4/46/Windup_alarm_clock.jpg</imatge>
+        </producte>
+
+        <!-- Producte 3 -->
+        <producte id="P003">
+            <nom>Tauleta</nom>
+            <descripcio>Com un mòbil, però massa gran per a una butxaca.</descripcio>
+            <preu moneda="GBP">299.99</preu> <!-- Moneda: GBP (lliures esterlines) -->
+            <categoria>Electrònica</categoria>
+            <disponibilitat estat="esgotat">No disponible</disponibilitat>
+            <imatge>https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/HP_Tablet_PC_running_Windows_XP_%28Tablet_PC_edition%29_%282006%29.jpg/360px-HP_Tablet_PC_running_Windows_XP_%28Tablet_PC_edition%29_%282006%29.jpg</imatge>
+        </producte>
+
+        <!-- Producte 4 -->
+        <producte id="P004">
+            <nom>Motxilla</nom>
+            <descripcio>Per portar les teves coses amb comoditat.</descripcio>
+            <preu moneda="JPY">19999</preu> <!-- Moneda: JPY (iens japonesos) -->
+            <categoria>Accessoris</categoria>
+            <disponibilitat estat="estoc">Disponible</disponibilitat>
+            <imatge>https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Eastpak_Sugarbush_backpack_black.jpg/375px-Eastpak_Sugarbush_backpack_black.jpg</imatge>
+        </producte>
+
+        <!-- Producte 5 -->
+        <producte id="P005">
+            <nom>Taula</nom>
+            <descripcio>Per deixar-hi les coses a sobre o a sota.</descripcio>
+            <preu moneda="AUD">499.99</preu> <!-- Moneda: AUD (dòlars australians) -->
+            <categoria>Mobiliari</categoria>
+            <disponibilitat estat="esgotat">No disponible</disponibilitat>
+            <imatge>https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Writing_table_%28bureau_plat%29_MET_DP105403.jpg/413px-Writing_table_%28bureau_plat%29_MET_DP105403.jpg</imatge>
+        </producte>
+    </productes>
+</botiga>
