@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<informacio>
+  <informacio_basica>
+  <nom>Peter</nom>
+  <cognom>Jones</cognom>
+  <edat>19</edat>
+  <altura>1.78</altura>
+  <feina>Informàtic</feina>
+  <simbol_preferit>&lt;3</simbol_preferit>
+  <mascotes>
+    <mascota color="negre" >gat</mascota>
+    <mascota>chihuahua</mascota>
+  </mascotes>
+  <adreca>
+    <carrer>Pau Claris</carrer>
+    <numero>121</numero>
+    <cp>08012</cp>
+  </adreca>
+  </informacio_basica>
+  <xarxes_socials>
+    <instagram>
+      <usuari>pjones22</usuari>
+      <correu>pjones22@gmail.com</correu>
+    </instagram>
+    <twitter>si</twitter>
+  </xarxes_socials>
+  <amics>
+    <amic>
+      <nom>Jhon</nom>
+      <cognom>Doe</cognom>
+      <edat>35</edat>
+    </amic>
+    <amic>
+      <nom>Anna</nom>
+      <cognom>Smith</cognom>
+      <edat></edat>
+    </amic>
+  </amics>
+</informacio>

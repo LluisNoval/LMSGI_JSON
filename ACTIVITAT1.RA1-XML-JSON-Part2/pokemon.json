@@ -1,0 +1,84 @@
+{
+    "llista_pokemons": [
+      {
+        "id": 1,
+        "nom": "Bulbasaur",
+        "tipus": ["Planta", "Verí"],
+        "pes": "6.9 kg",
+        "altura": "0.7 m",
+        "estadistiques": {
+          "velocitat": 3,
+          "fortalesa": 3,
+          "precisió": 4,
+          "resistència": 4
+        },
+        "moviments": [
+          {
+            "nom": "Llança Llavor",
+            "descripcio": "Ataca l'enemic amb petites llavors.",
+            "potencia": 25,
+            "contacte": false
+          },
+          {
+            "nom": "Raig Solar",
+            "descripcio": "Concentra l'energia solar un torn, per a alliberar un raig que causa mal en el següent torn.",
+            "potencia": 120,
+            "contacte": false
+          }
+        ],
+        "imatge": "https://www.wikidex.net/wiki/Bulbasaur#/media/File:Bulbasaur.png",
+        "evolucions": [
+          {
+            "nom":"Ivysaur",
+            "id": 2,
+            "nivell_requerit": 16
+          },
+          {
+            "nom":"Venusaur",
+            "id": 2,
+            "nivell_requerit": 32
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "nom": "Squirtle",
+        "tipus": ["Aigua"],
+        "pes": "9.0 kg",
+        "altura": "0.5 m",
+        "estadistiques": {
+          "velocitat": 3,
+          "fortalesa": 4,
+          "precisió": 3,
+          "resistència": 5
+        },
+        "moviments": [
+          {
+            "nom": "Pistola Aigua",
+            "descripcio": "Llança un raig d'aigua contra l'enemic.",
+            "potencia": 40,
+            "contacte": false
+          },
+          {
+            "nom": "Cascada",
+            "descripcio": "Ataca amb un potent torrent d'aigua.",
+            "potencia": 80,
+            "contacte": true
+          }
+        ],
+        "imatge": "https://www.wikidex.net/wiki/Squirtle#/media/File:Squirtle.png",
+        "evolucions": [
+          {
+            "nom":"Wartortle",
+            "id": 8,
+            "nivell_requerit": 16
+          },
+          {
+            "nom":"Blastoise",
+            "id": 8,
+            "nivell_requerit": 32
+          }
+        ]
+      }
+    ]
+  }  
